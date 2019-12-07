@@ -1,0 +1,28 @@
+{
+    "layout_style": "overflow",
+    "palette": "blue",
+    "header": {
+        "title": "James Eastham",
+        "tagline": "A full stack .NET developer with a love for craft ale, coffee and dogs.",
+        "profile_img": "https://res.cloudinary.com/practicaldev/image/fetch/s--TmLNi3Vh--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/194720/23f7995a-06c9-470f-aa02-fb58727a3dea.jpg",
+        "bg": "dark",
+        "has_nav": true,
+        "has_social": true
+    },
+    "footer": {
+        "content": "&copy; All rights reserved.",
+        "links": [
+            {
+                "text": "Made with Stackbit",
+                "url": "https://www.stackbit.com",
+                "new_window": true
+            },
+            {
+                "text": "Generated from DEV",
+                "url": "https://dev.to/connecting-with-stackbit",
+                "new_window": true
+            }
+        ]
+    },
+    "title": "Stackbit Fresh Theme"
+}
