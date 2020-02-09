@@ -2,6 +2,7 @@ import React from 'react';
 import _ from 'lodash';
 
 import {htmlToReact, Link} from '../utils';
+import BuyMeACoffee from './BuyMeACoffee';
 
 export default class Footer extends React.Component {
     render() {
@@ -16,6 +17,7 @@ export default class Footer extends React.Component {
               </p>
               <Link id="to-top" className="to-top" to="#page"><span className="icon-arrow-up" aria-hidden="true" /><span
                   className="screen-reader-text">Back to top</span></Link>
+                <br/>
             </footer>
         );
     }

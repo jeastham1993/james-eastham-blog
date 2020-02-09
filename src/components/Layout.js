@@ -5,6 +5,7 @@ import _ from 'lodash';
 import {safePrefix} from '../utils';
 import Header from './Header';
 import Footer from './Footer';
+import BuyMeACoffee from './BuyMeACoffee';
 
 export default class Body extends React.Component {
     render() {

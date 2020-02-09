@@ -2,6 +2,12 @@
  * Site Header
  * ----------------------------------------------------------------------------
  */
+
+ .social-links a img {
+  max-width: 50%;
+  cursor: pointer;
+}
+
 .site-header {
   background: #fff;
   border-bottom: 1px solid _palette(border);
