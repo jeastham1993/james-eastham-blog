@@ -14,14 +14,14 @@ html {
 }
 
 body {
-  background: #fff;
-  color: _palette(primary);
+  background: _palette(secondary);
+  color: white;
   line-height: 1.66667;
 }
 
 a {
   border-bottom: 2px solid _palette(accent);
-  color: _palette(secondary);
+  color: white;
   text-decoration: none;
   -webkit-transition: border .3s ease, color .3s ease;
   transition: border .3s ease, color .3s ease;
@@ -54,6 +54,7 @@ h1 {
 }
 
 h2 {
+  color: white;
   font-size: 1.88889rem;
 }
 

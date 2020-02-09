@@ -4,11 +4,30 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        'gatsby-plugin-robots-txt',
+        `gatsby-plugin-sitemap`,
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              name: `James Eastham Dev`,
+              short_name: `jeasthamdev`,
+              start_url: `/`,
+              background_color: `#f7f0eb`,
+              theme_color: `#a2466c`,
+              display: `standalone`,
+            },
+          },
         {
             resolve: `gatsby-source-filesystem`,
             options: {
                 name: `pages`,
                 path: `${__dirname}/src/pages`,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-google-analytics`,
+            options: {
+                trackingId: "UA-158055665-1",
             },
         },
         {

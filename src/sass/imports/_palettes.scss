@@ -7,6 +7,7 @@
     border-color: _palette(accent-blue);
 
     &:hover {
+      background: white!important;
       border-color: currentColor;
     }
   }
